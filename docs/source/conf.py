@@ -16,9 +16,10 @@
 
 
 # -- Project information -----------------------------------------------------
+import datetime
 
-project = 'github.com/dasimmet'
-copyright = '2020, dasimmet'
+project = 'dasimmet.github.io'
+copyright = 'dasimmet, built at '+ datetime.datetime.now().ctime()
 author = 'dasimmet'
 
 
